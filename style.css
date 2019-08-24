@@ -48,7 +48,17 @@
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  border: 10px solid goldenrod;
-  min-height: 100vh;
-  flex-direction: column;
+}
+
+.box {
+  flex: 1;
+  /* order: 0; This is the default order number */
+}
+
+.box3 {
+  order: -1;
+}
+
+.box7 {
+  order: 2;
 }
