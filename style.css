@@ -49,12 +49,12 @@
 .container {
   display: flex;
   border: 10px solid mistyrose;
-  min-height: 100vh;
+  height: 100vh;
+  /* flex-wrap: nowrap; Default */
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: space-around;
 }
 
 .box {
-  width: 33.33%;
+  width: 33.33333%;
+  margin: 10px;
 }
